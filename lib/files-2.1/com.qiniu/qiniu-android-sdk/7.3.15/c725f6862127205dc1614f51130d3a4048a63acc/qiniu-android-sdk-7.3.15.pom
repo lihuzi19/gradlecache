@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.qiniu</groupId>
+  <artifactId>qiniu-android-sdk</artifactId>
+  <version>7.3.15</version>
+  <name>qiniu-android-sdk library</name>
+  <description>Qiniu Cloud Storage SDK for Android</description>
+  <url>https://github.com/qiniu/android-sdk</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>qiniu</id>
+      <name>Qiniu</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:qiniu/android-sdk.git</connection>
+    <developerConnection>scm:git@github.com:qiniu/android-sdk.git</developerConnection>
+    <url>https://github.com/qiniu/android-sdk</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.11.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
